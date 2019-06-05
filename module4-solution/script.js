@@ -50,7 +50,7 @@ for (name in names) {
   // string object's 'toLowerCase' method on the result so we can compare
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
-    var firstLetter = name.charAt(0).toLowerCase();
+    var firstLetter = names[name].charAt(0).toLowerCase();
     if (firstLetter==="j") {
       byeSpeaker.speak(names[name]);
     }
